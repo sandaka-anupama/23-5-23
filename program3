@@ -1,0 +1,6 @@
+import math
+class Solution:
+    def gcd(self, A, B):
+        if A==0:
+            return B
+        return math.gcd(B%A,A)
